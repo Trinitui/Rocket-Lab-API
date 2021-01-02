@@ -11,7 +11,7 @@ const app = express();
 /* Production read-only mongoDB */
 const url =
   process.env.MONGO_URL ||
-  'mongodb+srv://public:rocketlab@rocketlab-zkfvv.gcp.mongodb.net/rocketlab-api';
+  'mongodb+srv://User1:h3TvxN2NfkPHUhBC@cluster0.r4w7b.mongodb.net/rocketlab-api?retryWrites=true&w=majority';
 
 /* Import routes */
 const routes_v1 = require('./routes/v1');
@@ -52,6 +52,7 @@ app.use((err, req, res, next) => {
       url,
       { poolSize: 20, useNewUrlParser: true, useUnifiedTopology: true }
     );
+    console.log("Connected successfully to server");
     global.db = client.db('rocketlab-api');
 
     const port = process.env.PORT || 3000;
