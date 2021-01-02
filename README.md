@@ -1,24 +1,4 @@
-## This is a testing build of the API. It is currently online at:
-
-```bash
-curl -s https://rocketlabapi-test.herokuapp.com/v1/launches/latest
-```
-
-
-
-<p align="center"><img src="https://i.imgur.com/Jbdc6V0.png"></p>
-<p align="center"><img src="https://i.imgur.com/Z62dypG.jpg"></p>
-<p align="center">Image from <b>It's Business Time</b> Rocket Lab Mission</p>
-
-<p align="center"><img src="https://i.imgur.com/I7qwZNB.png" width="80"></p>
-
-<h1 align="center">Rocket Lab REST API</h1>
-
-<p align="center">
-<a href="https://en.wikipedia.org/wiki/Representational_state_transfer"><img src="https://img.shields.io/badge/interface-REST-brightgreen.svg?longCache=true&style=flat"></a> <a href="https://www.codacy.com/app/filipebarrossi/Rocket-Lab-API?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=barrosfilipe/Rocket-Lab-API&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/010750d5b7cf43909964bc207ed5ea51"/></a>
-</p>
-
-<h3 align="center">An Open Source REST API for rocket and launch data</h3>
+# This is a testing build of the API.
 
 ## Usage
 
@@ -196,13 +176,3 @@ Follow the quick guide [here](https://github.com/barrosfilipe/Rocket-Lab-API/blo
 * Using [Jest](https://facebook.github.io/jest/) and [Supertest](https://github.com/visionmedia/supertest) for tests
 * All data stored in a [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) 3 node replica set cluster
 * Latest database with MongoDB collections in JSON files available [here](https://drive.google.com/file/d/1Cpn0DpeKrPz-wyjKqkVL82qBb1zj9BYK/view)
-
-## FAQ's
-* If you have any questions or corrections, please open an issue and we'll get it merged ASAP
-* All data and photos are property of [ROCKET LAB USA](https://www.rocketlabusa.com/)
-* I am not affiliated with Rocket Lab in any way, shape, form, or fashion. Just a fun side project for me
-* For any other questions or concerns, just shoot me an email
-* Yes, this project is inspired by [SpaceX-API](https://github.com/r-spacex/SpaceX-API/)
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbarrosfilipe%2FRocket-Lab-API.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbarrosfilipe%2FRocket-Lab-API?ref=badge_large)
