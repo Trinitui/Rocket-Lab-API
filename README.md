@@ -1,7 +1,7 @@
 ## This is a testing build of the API. It is currently online at:
 
 ```bash
-curl -s https://rocketlabapi-test.herokuapp.com//v1/launches/latest | jq
+curl -s https://rocketlabapi-test.herokuapp.com/v1/launches/latest
 ```
 
 
