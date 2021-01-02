@@ -5,15 +5,15 @@ git clone https://github.com/barrosfilipe/Rocket-Lab-API.git && cd Rocket-Lab-AP
 
 2. Install dependencies
 ```bash
-yarn
+npm install
 ```
 
 3. Run tests
 ```bash
-yarn test
+npm test
 ```
 
 4. Start the app
 ```bash
-yarn dev
+npm start
 ```
