@@ -5,7 +5,7 @@
 **Example Response**
 
 ```bash
-curl -s https://rocketlabapi-test.herokuapp.com//v1/launches/latest | jq
+curl -s https://rocketlabapi-test.herokuapp.com/v1/launches/latest | jq
 ```
 
 ```json
