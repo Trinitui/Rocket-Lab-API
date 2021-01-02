@@ -50,9 +50,8 @@ app.use((err, req, res, next) => {
   try {
     const client = await MongoClient.connect(
       url,
-      { poolSize: 20, useNewUrlParser: true }
+      { poolSize: 20, useNewUrlParser: true, useUnifiedTopology: true }
     );
-
     global.db = client.db('rocketlab-api');
 
     const port = process.env.PORT || 3000;
