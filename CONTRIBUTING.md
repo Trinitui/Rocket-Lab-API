@@ -12,4 +12,4 @@ Take a look on our Trello board [here](https://trello.com/b/6zQjMaff) to see wha
 
 1. Open an issue with your correction, addition, or new data ideas
 
-2. If approved, new data will be added to the database, and tests will be written to cover the new data.
+2. If approved, new data will be added to the database, and tests will be written to cover the new data..
