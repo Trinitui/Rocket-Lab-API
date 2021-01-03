@@ -12,7 +12,7 @@ test('It should return project info', async () => {
   expect(response.statusCode).toBe(200);
   expect(response.body).toEqual({
     name:"Rocket-Lab-API",
-    version:"2.x.x",
+    version:"1.0.5",
     description:"An Open Source REST API for rocket, pad and launch data",
     github:"https://github.com/Trinitui/Rocket-Lab-API-Reborn",
     original_author:"Filipe Barros <filipebarrossi@gmail.com>",
@@ -37,3 +37,8 @@ test('It should return one launch', async () => {
   const response = await request(app).get('/v1/launches/1');
   expect(response.statusCode).toBe(200);
 });
+
+test ('It should return a sample response for rockets', async() => {
+  const response = await request(app).get('/v1/rockets');
+  expect(response.statusCode).toBe(200);
+})
