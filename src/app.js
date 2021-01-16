@@ -11,7 +11,7 @@ const app = express();
 /* Production read-only mongoDB */
 const url =
   process.env.MONGO_URL ||
-  'mongodb+srv://User1:h3TvxN2NfkPHUhBC@cluster0.r4w7b.mongodb.net/rocketlab-api?retryWrites=true&w=majority';
+  'mongodb+srv://User2:kj2Nu6u7YwTMfIOCnxX8@cluster0.r4w7b.mongodb.net/rocketlab-api?retryWrites=true&w=majority';
 
 /* Import routes */
 const routes_v1 = require('./routes/v1');
