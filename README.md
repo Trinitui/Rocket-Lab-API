@@ -147,10 +147,10 @@ curl -s https://rocketlabapi-test.herokuapp.com/v1/launches/latest | jq
       "https://www.rocketlabusa.com/news/updates/rocket-lab-successfully-launches-nasa-cubesats-to-orbit-on-first-ever-venture-class-launch-services-mission/",
       "https://www.rocketlabusa.com/assets/Uploads/NASA-ELANA19-Presskit-December2019.pdf"
     ],
-    "flickr": [
+    "flickr": [{
       "small": null,
       "large": null
-    ],
+    }],
     "videos": [
       "https://www.youtube.com/watch?v=CebXCobtIgc",
       "https://www.youtube.com/watch?v=F7Kr3664hJs"
