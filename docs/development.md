@@ -1,6 +1,6 @@
 1. Clone the repo
 ```bash
-git clone https://github.com/barrosfilipe/Rocket-Lab-API.git && cd Rocket-Lab-API
+git clone https://github.com/Trinitui/Rocket-Lab-API-Reborn.git && cd Rocket-Lab-API
 ```
 
 2. Install dependencies

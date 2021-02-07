@@ -1,12 +1,12 @@
 # API v1 Payloads Resource
 Endpoints allowing you to get information related to Rocket Lab payloads.
 
-[Info](https://github.com/barrosfilipe/Rocket-Lab-API/blob/master/docs/v1/info.md)
-| [Launches](https://github.com/barrosfilipe/Rocket-Lab-API/blob/master/docs/v1/launches.md)
-| Payloads | [Rockets](https://github.com/barrosfilipe/Rocket-Lab-API/blob/master/docs/v1/rockets.md)
+[Info](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/info.md)
+| [Launches](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/launches.md)
+| Payloads | [Rockets](hhttps://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/rockets.md)
 
 ## Payloads Base Path
-[https://rocketlab-api.now.sh/v1/payloads](https://rocketlab-api.now.sh/v1/payloads)
+[https://rocketlabapi.herokuapp.com/v1/payloads](https://rocketlabapi.herokuapp.com/v1/payloads)
 
 ## All Payloads `GET /v1/payloads`
 * Expected HTTP **status code** `200 OK`

@@ -1,12 +1,12 @@
 # API v1 Launches Resource
 Endpoints allowing you to get information related to Rocket Lab launches.
 
-[Info](https://github.com/barrosfilipe/Rocket-Lab-API/blob/master/docs/v1/info.md)
-| Launches | [Payloads](https://github.com/barrosfilipe/Rocket-Lab-API/blob/master/docs/v1/payloads.md)
-| [Rockets](https://github.com/barrosfilipe/Rocket-Lab-API/blob/master/docs/v1/rockets.md)
+[Info](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/info.md)
+| Launches | [Payloads](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/payloads.md)
+| [Rockets](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/rockets.md)
 
 ## Launches Base Path
-[https://rocketlab-api.now.sh/v1/launches](https://rocketlab-api.now.sh/v1/launches)
+[https://rocketlabapi.herokuapp.com/v1/launches](https://rocketlabapi.herokuapp.com/v1/launches)
 
 ## All Launches `GET /v1/launches`
 * Expected HTTP **status code** `200 OK`

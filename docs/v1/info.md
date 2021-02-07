@@ -2,12 +2,12 @@
 Endpoints allowing you to get information related to Rocket Lab API.
 
 Info
-| [Launches](https://github.com/barrosfilipe/Rocket-Lab-API/blob/master/docs/v1/launches.md)
-| [Payloads](https://github.com/barrosfilipe/Rocket-Lab-API/blob/master/docs/v1/payloads.md)
-| [Rockets](https://github.com/barrosfilipe/Rocket-Lab-API/blob/master/docs/v1/rockets.md)
+| [Launches](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/infolaunches.md)
+| [Payloads](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/infopayloads.md)
+| [Rockets](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/inforockets.md)
 
 ## Info Base Path
-[https://rocketlab-api.now.sh/v1](https://rocketlab-api.now.sh/v1)
+[https://rocketlabapi.herokuapp.com/v1/](https://rocketlabapi.herokuapp.com/v1/)
 
 ## Info `GET /v1`
 * Expected HTTP **status code** `200 OK`
@@ -15,11 +15,12 @@ Info
 * Expected **Body**: `↴`
 ```json
 {
-  "name": "Rocket-Lab-API",
-  "version": "1.0.0",
-  "description": "An Open Source REST API for rocket, pad and launch data",
-  "github": "https://github.com/barrosfilipe/Rocket-Lab-API",
-  "author": "Filipe Barros <filipebarrossi@gmail.com>",
-  "license": "MIT"
+  "author" : "Andrew Whelan <andrewmwhelan9@gmail.com>",
+  "description" : "An Open Source REST API for rocket, pad and launch data",
+  "github" : "https://github.com/Trinitui/Rocket-Lab-API-Reborn",
+  "license" : "MIT",
+  "name" : "Rocket-Lab-API",
+  "original_author" : "Filipe Barros <filipebarrossi@gmail.com>",
+  "version" : "1.0.5"
 }
 ```
