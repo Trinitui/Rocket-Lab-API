@@ -41,7 +41,7 @@ Endpoints allowing you to get information related to Rocket Lab payloads.
   {
     "configuration" : "CubeSat",
     "customer_name" : "Fleet Space Technologies",
-    "flight_number" : 3
+    "flight_number" : 3,
     "manufacturer" : "Pumpkin Space Systems",
     "mass_kg" : null,
     "name" : "Proxima 1",
