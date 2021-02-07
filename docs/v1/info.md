@@ -2,9 +2,9 @@
 Endpoints allowing you to get information related to Rocket Lab API.
 
 Info
-| [Launches](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/infolaunches.md)
-| [Payloads](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/infopayloads.md)
-| [Rockets](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/inforockets.md)
+| [Launches](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/launches.md)
+| [Payloads](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/payloads.md)
+| [Rockets](https://github.com/Trinitui/Rocket-Lab-API-Reborn/blob/master/docs/v1/rockets.md)
 
 ## Info Base Path
 [https://rocketlabapi.herokuapp.com/v1/](https://rocketlabapi.herokuapp.com/v1/)
