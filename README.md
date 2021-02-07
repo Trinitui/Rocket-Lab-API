@@ -147,6 +147,10 @@ curl -s https://rocketlabapi-test.herokuapp.com/v1/launches/latest | jq
       "https://www.rocketlabusa.com/news/updates/rocket-lab-successfully-launches-nasa-cubesats-to-orbit-on-first-ever-venture-class-launch-services-mission/",
       "https://www.rocketlabusa.com/assets/Uploads/NASA-ELANA19-Presskit-December2019.pdf"
     ],
+    "flickr": [
+      "small": null,
+      "large": null
+    ],
     "videos": [
       "https://www.youtube.com/watch?v=CebXCobtIgc",
       "https://www.youtube.com/watch?v=F7Kr3664hJs"
@@ -171,8 +175,8 @@ See the `v1 documentation` [here](https://github.com/barrosfilipe/Rocket-Lab-API
 Follow the quick guide [here](https://github.com/barrosfilipe/Rocket-Lab-API/blob/master/docs/development.md)
 
 ## Technical Details
-* Deployed on [▲ZEIT](https://zeit.co/)
+* Deployed on [Heroku](https://www.heroku.com/)
 * Using [Node.js](https://nodejs.org/en/) with the [Express](https://expressjs.com/) framework
 * Using [Jest](https://facebook.github.io/jest/) and [Supertest](https://github.com/visionmedia/supertest) for tests
 * All data stored in a [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) 3 node replica set cluster
-* Latest database with MongoDB collections in JSON files available [here](https://drive.google.com/file/d/1Cpn0DpeKrPz-wyjKqkVL82qBb1zj9BYK/view)
+* Latest database with MongoDB collections in JSON files available soon
