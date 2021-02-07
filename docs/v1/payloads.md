@@ -15,18 +15,20 @@ Endpoints allowing you to get information related to Rocket Lab payloads.
 ```json
 [
   {
-    "norad_id": 43163,
-    "name": "Dove Pioneer",
-    "nationality": "United States",
-    "configuration": "CubeSat",
-    "type": [
-      "Earth observation"
-    ],
-    "customer_name": "Planet Labs",
-    "manufacturer": "Planet Labs",
-    "mass_kg": 5,
-    "orbit": "LEO"
-  }
+     "configuration" : "CubeSat",
+     "customer_name" : "Advanced Space for NASA's Advanced Exploration Systems (AES)",
+     "flight_number" : 20,
+     "manufacturer" : "Advanced Space, Tyvak",
+     "mass_kg" : 27,
+     "name" : "CAPSTONE",
+     "nationality" : "USA",
+     "norad_id" : "TBD",
+     "orbit" : "NRLO",
+     "type" : [
+        "Technology",
+        "Interplanetary"
+     ]
+   }
 ]
 ```
 
@@ -37,18 +39,19 @@ Endpoints allowing you to get information related to Rocket Lab payloads.
 ```json
 [
   {
-    "norad_id": null,
-    "name": "Proxima 1",
-    "nationality": "United States",
-    "configuration": "CubeSat",
-    "type": [
+    "configuration" : "CubeSat",
+    "customer_name" : "Fleet Space Technologies",
+    "flight_number" : 3
+    "manufacturer" : "Pumpkin Space Systems",
+    "mass_kg" : null,
+    "name" : "Proxima 1",
+    "nationality" : "United States",
+    "norad_id" : null,
+    "orbit" : "LEO",
+    "type" : [
       "Communication",
-      "IoT"
-    ],
-    "customer_name": "Fleet Space Technologies",
-    "manufacturer": "Pumpkin Space Systems",
-    "mass_kg": null,
-    "orbit": "LEO"
+        "IoT"
+    ]
   }
 ]
 ```
