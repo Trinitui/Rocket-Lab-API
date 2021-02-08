@@ -177,4 +177,4 @@ Follow the quick guide [here](https://github.com/barrosfilipe/Rocket-Lab-API/blo
 * Using [Node.js](https://nodejs.org/en/) with the [Express](https://expressjs.com/) framework
 * Using [Jest](https://facebook.github.io/jest/) and [Supertest](https://github.com/visionmedia/supertest) for tests
 * All data stored in a [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) 3 node replica set cluster
-* Latest database with MongoDB collections in JSON files available soon
+* Latest database with MongoDB collections in JSON files available here: https://drive.google.com/file/d/1Lp7tcOm40XDnywSCY0OqSCw4vQsQ-nXj/view?usp=sharing
