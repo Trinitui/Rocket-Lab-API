@@ -1,11 +1,9 @@
-# This is a testing build of the API.
-
 ## Usage
 
 **Example Response**
 
 ```bash
-curl -s https://rocketlabapi.herokuapp.com/v1/launches/latest | jq
+curl -s https://rocketlabapi.herokuapp.com/v1/launches/latest | json_pp -json_opt pretty,canonical
 ```
 
 ```json
